@@ -24,7 +24,8 @@ This project is open source under the MIT License.
 
 ### Installing or Updating
 
-Download the latest .dmg installer under Releases. Open and install.
+Download the latest .dmg installer under [Releases](releases). Open and
+install.
 
 ### Uninstalling
 
