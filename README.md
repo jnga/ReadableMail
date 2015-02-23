@@ -28,8 +28,9 @@ Download the latest .dmg installer under Releases. Open and install.
 
 ### Uninstalling
 
-Run the installer and choose Custom Install. Uncheck the ReadableMail
-package, leaving the Uninstall ReadableMail package checked. Finish.
+Start the installer and choose Customize on the second screen. Uncheck the
+ReadableMail package, leaving the Uninstall ReadableMail package checked.
+Finish.
 
 ### Command Line
 
