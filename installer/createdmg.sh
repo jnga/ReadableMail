@@ -18,6 +18,10 @@ version=$1
 dmgname=$PROJNAME-$version.dmg
 sparseimage=$dmgname.sparseimage
 
+# Change to this script's directory.
+scriptdir=$(dirname $0)
+cd $scriptdir
+
 # Remove any old files.
 rm $dmgname 2> /dev/null
 rm $sparseimage 2> /dev/null
