@@ -6,12 +6,12 @@
 #
 # Example: ./createdmg.sh 1.0
 
-if [ $# -le 0 ] 
-    then 
-		echo "This script must be run with a version number." 
-	    echo -e "Usage: $0 {version-number}"
-		exit 1
-	fi
+if [ $# -le 0 ]
+    then
+        echo "This script must be run with a version number."
+        echo -e "Usage: $0 {version-number}"
+        exit 1
+    fi
 
 PROJNAME=ReadableMail
 version=$1
