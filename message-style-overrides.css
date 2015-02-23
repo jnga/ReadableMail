@@ -1,4 +1,4 @@
-/* BEGIN style overrides */
+/* BEGIN ReadableMail styles */
 
 /***
  * ReadableMail: honor message font and size preferences in Apple Mail,
@@ -39,4 +39,4 @@ table {
     width: 80% !important;
 }
 
-/* END style overrides */
+/* END ReadableMail styles */
