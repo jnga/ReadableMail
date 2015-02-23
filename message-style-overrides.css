@@ -1,0 +1,42 @@
+/* BEGIN style overrides */
+
+/***
+ * ReadableMail: honor message font and size preferences in Apple Mail,
+ * inspired by: http://apple.stackexchange.com/questions/157104
+ ***/
+
+/* Apply the user's Message Font preference setting (Mail > Preferences >
+ * > Fonts & Colors) to any body text. Leave headings alone. */
+body,
+.MsoNormal,
+div,
+p,
+a,
+span,
+table,
+td,
+td p,
+td span,
+ul,
+li,
+ol,
+font[size="1"],
+font[size="2"] {
+    font-family: @[PLAIN_TEXT_FONT_NAME] !important;
+
+    /* There is no unit after the font-size value. This works here, but
+     * adding a unit like px or pt does not: the font size then varies. */
+    font-size: @[PLAIN_TEXT_FONT_SIZE] !important;
+
+    /* Unfortunately the line height override does not work when composing,
+     * in either plain or rich text. It only works when displaying. */
+    line-height: 150% !important;
+}
+
+table {
+    /* Some messages use a fixed-width table, which can be too narrow
+     * when the font size is larger. */
+    width: 80% !important;
+}
+
+/* END style overrides */
