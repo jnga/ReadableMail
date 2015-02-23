@@ -48,5 +48,5 @@ To make a new .dmg file for release:
 
 2. Build the project in Packages.
 
-3. At the command line, run the createdmg.sh script with a version number.
-Example: ./createdmg.sh 1.0
+3. At the command line, from the installer directory, run the createdmg.sh
+script with a version number. Example: ./createdmg.sh 1.0
