@@ -43,11 +43,14 @@ uninstall.sh script. Example: sudo ./install.sh
 The installer was built using the free tool
 [Packages](http://s.sudre.free.fr/Software/Packages/about.html).
 
-To make a new .dmg file for release:
+To make a new .dmg file for release, run the installer/build.sh script
+with a version number. Example: ./build.sh 1.0
+
+Or, to build manually from within Packages:
 
 1. Open the .pkgproj file in Packages.
 
 2. Build the project in Packages.
 
-3. At the command line, run the createdmg.sh script with a version number.
-Example: ./createdmg.sh 1.0
+3. At the command line, run the installer/createdmg.sh script with a version
+number. Example: ./createdmg.sh 1.0
