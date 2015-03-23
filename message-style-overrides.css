@@ -6,7 +6,7 @@
  ***/
 
 /* Apply the user's Message Font preference setting (Mail > Preferences >
- * > Fonts & Colors) to any body text. Leave headings alone. */
+ * > Fonts & Colors) to body text. */
 body,
 .MsoNormal,
 div,
@@ -20,8 +20,8 @@ td span,
 ul,
 li,
 ol,
-font[size="1"],
-font[size="2"] {
+strong,
+font {
     font-family: @[PLAIN_TEXT_FONT_NAME] !important;
 
     /* There is no unit after the font-size value. This works here, but
