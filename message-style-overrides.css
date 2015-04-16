@@ -21,6 +21,9 @@ ul,
 li,
 ol,
 strong,
+em,
+b,
+i,
 font {
     font-family: @[PLAIN_TEXT_FONT_NAME] !important;
 
