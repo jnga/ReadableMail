@@ -9,9 +9,9 @@ font and size.
 Apple Mail has a preference setting for the message font and size (Mail
 \> Preferences \> Fonts & Colors: Message Font).
 
-However, it ignores this setting with HTML messages that specify their own
-fonts and sizes, which are increasingly the norm. This can leave the reader
-stuck with type is too small or otherwise hard to read.
+Unfortunately, it ignores this setting with HTML messages that specify their
+own fonts and sizes, which are increasingly the norm. This can leave the
+reader stuck with type is too small or otherwise hard to read.
 
 ReadableMail makes Apple Mail honor the Message Font preference setting
 with HTML messages. Message body text will appear in the font and size of
@@ -100,7 +100,7 @@ number. Example: ./createdmg.sh 1.0
 
 ## Credits
 
-Inspired by: http://apple.stackexchange.com/questions/157104
+Inspired by the answer at: http://apple.stackexchange.com/questions/157104
 
 ## License
 
