@@ -22,7 +22,7 @@ Works with Mac OS versions: 10.12 “Sierra,” 10.11 “El Capitan,” and
 10.10 “Yosemite.”
 
 Note: on OS versions 10.11 and higher, installation requires turning off
-System Integrity Protection (SIP). After installation, SIP may be turned
+System Integrity Protection (SIP). After installation, SIP can be turned
 back on again.
 
 ## Installation
