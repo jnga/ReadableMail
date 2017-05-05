@@ -1,7 +1,8 @@
 # ReadableMail
 
-ReadableMail is a small add-on fix for Apple Mail for improving the
-readability of messages by allowing control of the default font and size.
+ReadableMail is a small add-on fix for Apple Mail to make messages
+easier to read, by better honoring the user’s preferences for default
+font and size.
 
 ## Details
 
