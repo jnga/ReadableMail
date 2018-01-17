@@ -39,7 +39,9 @@ font {
 table {
     /* Some messages use a fixed-width table, which can be too narrow
      * when the font size is larger. */
-    width: 80% !important;
+    max-width: 95% !important;
+    table-layout: auto !important;
+    width: 95% !important;
 }
 
 /* END ReadableMail styles */
