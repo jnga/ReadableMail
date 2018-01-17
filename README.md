@@ -20,7 +20,7 @@ the reader’s choice.
 ## System Requirements
 
 Works with Mac OS versions: 10.12 “Sierra,” 10.11 “El Capitan,” and
-10.10 “Yosemite.”
+10.10 “Yosemite.” Should also work with 10.13 ”High Sierra.”
 
 Note: on OS versions 10.11 and higher, installation requires turning off
 System Integrity Protection (SIP). After installation, SIP can be turned
