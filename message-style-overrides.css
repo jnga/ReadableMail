@@ -36,6 +36,16 @@ font {
     line-height: 140% !important;
 }
 
+/* Apply the font preference setting to headings. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: @[PLAIN_TEXT_FONT_NAME] !important;
+}
+
 table {
     /* Some messages use a fixed-width table, which can be too narrow
      * when the font size is larger. */
