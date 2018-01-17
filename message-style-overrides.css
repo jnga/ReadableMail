@@ -33,7 +33,7 @@ font {
 
     /* Unfortunately the line height override does not work when composing,
      * in either plain or rich text. It only works when displaying. */
-    line-height: 150% !important;
+    line-height: 140% !important;
 }
 
 table {
